@@ -1,0 +1,30 @@
+export interface Cat {
+    id: string;
+    name: string;
+    temperament: string;
+    origin: string;
+    description: string;
+    life_span: string;
+    reference_image_id: string;
+    adaptability: number,
+    affection_level: number,
+    child_friendly: number,
+    dog_friendly: number,
+    energy_level: number,
+    grooming: number,
+    health_issues: number,
+    intelligence: number,
+    shedding_level: number,
+    social_needs: number,
+    stranger_friendly: number,
+    vocalisation: number,
+    experimental: number,
+    hairless: number,
+    natural: number,
+    rare: number,
+    rex: number,
+    suppressed_tail: number,
+    short_legs: number,
+    hypo_allergenic: number,
+    more_info: string;
+}
