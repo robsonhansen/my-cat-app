@@ -7,11 +7,11 @@ import Main from "@/components/Main";
 export default function Home() {
   return (
     <div className={styles.page}>
-      <div>
-        <Header />
-        <Main />
-        <Footer />
-      </div>
+        <div className={styles.container}>
+          <Header />
+          <Main />
+          <Footer />
+        </div>
     </div>
   );
 }

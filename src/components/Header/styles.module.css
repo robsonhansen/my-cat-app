@@ -1,0 +1,41 @@
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    padding: 0;
+    overflow: hidden;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    padding: .75rem 1.25rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logoContainer{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.nav{
+    display: flex;
+    gap: .5rem;
+}
+
+.link{
+    color: #333;
+    font-weight: 500;
+    font-size: .875rem;
+    transition: color .2s;
+}
